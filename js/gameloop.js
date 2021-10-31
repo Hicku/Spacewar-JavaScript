@@ -36,9 +36,9 @@ window.addEventListener("keydown", (event) => {
 // Game object
 let Game = {
   fps: 60,
-  width: 600,
-  height: 600,
-  radius: 300
+  width: 660,
+  height: 660,
+  radius: 330
 };
 
 // Screens objects
