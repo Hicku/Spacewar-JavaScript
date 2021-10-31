@@ -20,7 +20,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 "use strict";
 
 const gameOverPositions = [[180, 360], [230, 410]]
-const startScreenPositions = [[190, 290], [190, 340], [200, 390]]
+const startScreenPositions = [[190, 290], [190, 340]]
 
 startScreen.init = () => {
   startScreen.stars = versusScreen.makeStars()
