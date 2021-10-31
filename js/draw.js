@@ -57,7 +57,7 @@ function drawArray(array, width=1, color=VECTOR_COLOR) {
   Game.context.stroke();
 }
 
-function drawCircle(x, y, radius, width=1, color=VECTOR_COLOR) {
+function drawCircle(x, y, radius, width=2, color=VECTOR_COLOR) {
   // setup style
   Game.context.lineWidth = width;
   Game.context.strokeStyle = color;
