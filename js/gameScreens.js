@@ -19,7 +19,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 "use strict";
 
-const STARS = 40;
+const STARS = 50;
 const GRAVITY = 50;
 
 const p1Spawn = [150, 150];
