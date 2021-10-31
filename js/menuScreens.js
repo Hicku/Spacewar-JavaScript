@@ -36,8 +36,13 @@ startScreen.draw = () => {
   writeCentered(150, "SPACEWAR", 5, 5);
   writeCentered(280, "1p start", 2);
   writeCentered(330, "2p start", 2);
-  writeCentered(470, "'wasd' - player 1     player 2 - arrows", 1.2);
-  writeCentered(500, "enter - go            esc - go back", 1.2);
+
+  writeCentered(420, "enter - start", 1.2);
+  //writeCentered(450, "player 1- 'wasd'", 1.2);
+ // writeCentered(480, "player 2 - arrows", 1.2);
+
+  writeCentered(450, "player 1- 'wasd'     player 2 - arrows", 1.2);
+ // writeCentered(500, "enter - start          esc - go back", 1.2);
 }
 startScreen.update = () => {
   startScreen.arrow.update()
